@@ -1,6 +1,6 @@
 \documentclass[11pt,article,oneside]{memoir}
 \usepackage{org-preamble-xelatex}
-\input{vc}
+\%\input{vc}
 
 $if(listings)$
 \usepackage{listings}

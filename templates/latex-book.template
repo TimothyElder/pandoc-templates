@@ -1,6 +1,6 @@
 \documentclass[12pt]{memoir}
 \usepackage[minion]{org-preamble-pdflatex}
-\input{vc}
+\%\input{vc}
 
 $if(listings)$
 \usepackage{listings}
