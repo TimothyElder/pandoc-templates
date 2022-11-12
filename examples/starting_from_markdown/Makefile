@@ -53,7 +53,7 @@ docx:	clean $(DOCX)
 
 
 %.pdf:	%.md
-	pandoc -r $(OPTIONS) -s  --pdf-engine=pdflatex --template=$(PREFIX)/templates/latex.template --filter pandoc-citeproc --csl=$(PREFIX)/csl/$(CSL).csl --bibliography=$(BIB) -o $@ $<
+	pandoc -r $(OPTIONS) -s  --pdf-engine=pdflatex --template=$(PREFIX)/templates/latex.template --citeproc --csl=$(PREFIX)/csl/$(CSL).csl --bibliography=$(BIB) -o $@ $<
 
 
 %.docx: %.md

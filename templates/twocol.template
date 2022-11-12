@@ -1,0 +1,17 @@
+\documentclass{memoir}
+\usepackage{multicol,caption}
+\usepackage{fontspec}
+\usepackage{hyperref}
+\newenvironment{Figure}
+  {\par\medskip\noindent\minipage{\linewidth}}
+  {\endminipage\par\medskip}
+
+\setromanfont[Mapping=tex-text,Numbers=OldStyle]{Minion Pro} 
+\setsansfont[Mapping=tex-text]{Minion Pro} 
+\setmonofont[Mapping=tex-text,Scale=0.8]{Futura}  
+
+\begin{document}
+\begin{multicols}{2}
+$body$
+\end{multicols}
+\end{document}

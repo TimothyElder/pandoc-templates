@@ -1,0 +1,57 @@
+\documentclass{article}
+\usepackage[margin=1in]{geometry}
+\usepackage[export]{adjustbox}
+\usepackage{fancyhdr}
+\usepackage[T1]{fontenc} %changing monospaced font
+\usepackage{inconsolata}  % to inconsolata
+\usepackage{lipsum}
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=blue,
+    filecolor=blue,
+    urlcolor=blue,
+    citecolor = blue
+    }
+  \urlstyle{same}
+
+\def\myauthor{Timothy Elder}
+\def\myaffiliation{University of Chicago}
+\def\myaddress{Department of Sociology}
+\def\myemail{timothyelder@uchicago.edu}
+\def\myphone{(312) 985-6358}
+\def\mysite{timothyelder.com}
+
+\setlength{\parskip}{\baselineskip}%
+\setlength{\parindent}{0pt}% Remove paragraph indent
+
+\pagestyle{fancy}
+\fancyhf{}% Clear header/footer
+\fancyfoot[R]{\itshape Page~\thepage~of~\csname @abspage@last\endcsname}
+\renewcommand{\headrulewidth}{0pt}% Remove header rule
+
+\begin{document}
+
+\begin{tabular}[t]{@{} l @{}}
+  \includegraphics[height=7\normalbaselineskip,valign=t]{/Users/timothyelder/Documents/UChicago_Graphic_Identity/University_Seal/RGB_PNG/university.seal.rgb.dark.gray} \\
+  \\
+  \bfseries \\ % title of search Committee "Faculty Search Committee"
+  \itshape \\ % "Department of Cleverness "
+  \itshape % Impressive University
+\end{tabular}
+%
+\hfill
+% my info block
+\begin{tabular}[t]{@{} r @{}}
+  \bfseries Timothy Elder \\
+  \itshape {\myaddress} \\
+  \itshape University of Chicago \\
+   \texttt{\href{mailto:\myemail}{\myemail}} \\
+   \texttt{\href{http://timothyelder.com/}{\mysite}} \\
+  \\
+  \today %change to get proper date
+\end{tabular}
+
+$body$
+
+\end{document}
