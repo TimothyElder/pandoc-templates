@@ -1,4 +1,4 @@
-\documentclass{memoir}
+\documentclass[11pt,article,oneside]{memoir}
 \usepackage{multicol,caption}
 \usepackage{fontspec}
 \usepackage{hyperref}
@@ -10,8 +10,57 @@
 \setsansfont[Mapping=tex-text]{Minion Pro} 
 \setmonofont[Mapping=tex-text,Scale=0.8]{Futura}  
 
+$if(csl-refs)$
+\newlength{\cslhangindent}
+\setlength{\cslhangindent}{1.5em}
+\newenvironment{CSLReferences}%
+  {$if(csl-hanging-indent)$\setlength{\parindent}{0pt}%
+  \everypar{\setlength{\hangindent}{\cslhangindent}}\ignorespaces$endif$}%
+  {\par}
+$endif$
+
+$if(title)$
+\title{\bigskip \bigskip $title$}
+$endif$
+
+
 \begin{document}
+
+$if(title)$
+\maketitle
+$endif$
+
+$if(date)$
+\date{$date$}
+$endif$
+
 \begin{multicols}{2}
+
 $body$
+
 \end{multicols}
+
+$if(natbib)$
+$if(biblio-files)$
+$if(biblio-title)$
+$if(book-class)$
+\renewcommand\bibname{Bibliography}
+$else$
+\renewcommand\refname{References}
+$endif$
+$endif$
+
+\bibliography{$biblio-files$}
+
+$endif$
+$endif$
+$if(biblatex)$
+\printbibliography$if(biblio-title)$[title=References]$endif$
+
+$endif$
+$for(include-after)$
+$include-after$
+
+$endfor$
+
 \end{document}
