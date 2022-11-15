@@ -1,5 +1,5 @@
 \documentclass[11pt,article,oneside]{memoir}
-\usepackage{multicol,caption}
+\usepackage{caption}
 \usepackage{fontspec}
 \usepackage{hyperref}
 \hypersetup{
@@ -14,6 +14,10 @@
 \newenvironment{Figure}
   {\par\medskip\noindent\minipage{\linewidth}}
   {\endminipage\par\medskip}
+
+\setlrmarginsandblock{5cm}{5cm}{*}
+\setulmarginsandblock{2.5cm}{2.5cm}{*}
+\checkandfixthelayout  
 
 \setromanfont[Mapping=tex-text,Numbers=OldStyle]{Minion Pro} 
 \setsansfont[Mapping=tex-text]{Myriad Pro} 
@@ -32,7 +36,6 @@ $if(title)$
 \title{\bigskip \bigskip $title$}
 $endif$
 
-
 \begin{document}
 
 $if(title)$
@@ -43,11 +46,7 @@ $if(date)$
 \date{$date$}
 $endif$
 
-\begin{multicols}{2}
-
 $body$
-
-\end{multicols}
 
 $if(natbib)$
 $if(biblio-files)$
