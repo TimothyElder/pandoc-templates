@@ -1,0 +1,23 @@
+\documentclass{article}
+\usepackage{fancyhdr}% http://ctan.org/pkg/fancyhdr
+\usepackage{fontspec}
+ 
+\setmainfont{Times New Roman}
+
+\def\myauthor{$author$}
+\def\mytitle{$title$}
+\def\mydate{$date$}
+
+\begin{document}
+% Set the page style to "fancy"...
+\pagestyle{fancy}
+%... then configure it.
+\fancyhead{} % clear all header fields
+\fancyhead[R]{\small{\myauthor \\
+\mydate \\
+\mytitle}
+}
+
+$body$
+
+\end{document}
