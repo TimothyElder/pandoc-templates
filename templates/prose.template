@@ -36,14 +36,14 @@ $if(title)$
 \title{\bigskip \bigskip $title$}
 $endif$
 
+$if(date)$
+\date{$date$}
+$endif$
+
 \begin{document}
 
 $if(title)$
 \maketitle
-$endif$
-
-$if(date)$
-\date{$date$}
 $endif$
 
 $body$
