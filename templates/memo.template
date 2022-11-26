@@ -20,16 +20,20 @@
 \def\mytitle{$title$}
 \def\mydate{$date$}
 
-\begin{document}
-% Set the page style to "fancy"...
 \pagestyle{fancy}
-%... then configure it.
-\fancyhead{} % clear all header fields
-\fancyhead[R]{\small{\myauthor \\
-\mydate \\
-\mytitle}
+\setlength{\headsep}{0.1in}
+\fancyhead[L]{\textit{Memo}}
+\fancyhead[R]{\textit{\mytitle}} %header for all other pages
+\fancypagestyle{firstpage}{ %define header for first page
+\setlength{\headsep}{0.4in} %increase space between header and text body
+  
+  \lhead{\textit{Memo}}
+  \rhead{{\small{\myauthor \\
+                 \mydate \\
+                 \textit{\mytitle}}}}
 }
 
-$body$
-
+\begin{document}
+    \thispagestyle{firstpage}
+    $body$
 \end{document}

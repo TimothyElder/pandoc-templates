@@ -1,6 +1,8 @@
 \documentclass[11pt,article,oneside]{memoir}
 \usepackage{org-preamble-pdflatex}
 
+\usepackage{calc,array}
+
 $if(listings)$
 \usepackage{listings}
 \lstset{
