@@ -9,7 +9,10 @@
 % 
 % It also takes in title and author metadata and they are included on 
 % a title page if titlepage is set to true. You can include an IRB number 
-% as well as a do-not-circulate line if it is set to true.
+% as well as a do-not-circulate line if it is set to true. Including a
+% title page will suppress author or title information from appearing 
+% at the top of the first page, and I use it as a cover for sensitive
+% data that might be open on my desk.
 % 
 
 % Options for packages loaded elsewhere
