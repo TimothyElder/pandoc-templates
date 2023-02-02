@@ -1,6 +1,6 @@
 \documentclass[11pt,article,oneside]{memoir}
 \usepackage{org-preamble-xelatex}
-\%\input{vc}
+
 
 $if(listings)$
 \usepackage{listings}
@@ -44,11 +44,7 @@ $if(title)$
 \title{\bigskip \bigskip $title$}
 $endif$ 
 
-%\author{$for(author)$$author$$sep$\\$endfor$}
-
-\author{$for(author)$\Large $author.name$\vspace{0.05in} \newline\normalsize\emph{$author.affiliation$} \newline\footnotesize \url{$author.email$}\vspace*{0.2in}\newline $sep$ \and $endfor$}
-
-%\author{$for(author)$$author.name$ ($author.affiliation$)$sep$ \and $endfor$}
+\author{$for(author)$\Large $author.name$\vspace{0.05in} \newline\normalsize\emph{$author.affiliation$} \newline\footnotesize \texttt{\href{mailto:$author.email$}{$author.email$}}\vspace*{0.2in}\newline $sep$ \and $endfor$}
 
 \date{}
 
@@ -57,9 +53,9 @@ $endif$
 \setkeys{Gin}{width=1\textwidth} 	
 \setromanfont[Mapping=tex-text,Numbers=OldStyle]{Minion Pro} 
 \setsansfont[Mapping=tex-text]{Minion Pro} 
-\setmonofont[Mapping=tex-text,Scale=0.8]{Pragmata}
+\setmonofont[Mapping=tex-text,Scale=0.8]{Iosevka}
 \chapterstyle{article-4} 
-\pagestyle{kjh}
+%\pagestyle{kjh}
 
 \published{$date$.}
 
