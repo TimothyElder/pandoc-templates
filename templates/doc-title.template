@@ -459,7 +459,7 @@ $endif$
 
 \begin{document}
 
-%% END TITLE PAGE
+
 
 %% TITLE BLOCK NEED TO SUPPRESS THIS 
 $if(has-frontmatter)$

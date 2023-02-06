@@ -41,13 +41,12 @@ $if(csl-refs)$
 $endif$
 
 $if(title)$
-\title{\bigskip \bigskip $title$}
+\title{\bigskip \bigskip $title$$if(thanks)$\thanks{$thanks$} $endif$ }
 $endif$ 
 
 \author{$for(author)$\Large $author.name$\vspace{0.05in} \newline\normalsize\emph{$author.affiliation$} \newline\footnotesize \texttt{\href{mailto:$author.email$}{$author.email$}}\vspace*{0.2in}\newline $sep$ \and $endfor$}
 
 \date{}
-
 
 \begin{document}  
 \setkeys{Gin}{width=1\textwidth} 	
@@ -55,7 +54,7 @@ $endif$
 \setsansfont[Mapping=tex-text]{Minion Pro} 
 \setmonofont[Mapping=tex-text,Scale=0.8]{Iosevka}
 \chapterstyle{article-4} 
-%\pagestyle{kjh}
+\pagestyle{kjh}
 
 \published{$date$.}
 
