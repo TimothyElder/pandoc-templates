@@ -472,7 +472,11 @@ $if(titlepage)$
 \begin{titlepage}
 \begin{center}
 \vspace*{5cm}
-$title$
+$title$ \\
+$if(subtitle)$
+$subtitle$
+$endif$
+
 \vspace{2cm}
 
 $if(author)$

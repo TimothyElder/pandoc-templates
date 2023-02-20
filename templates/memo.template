@@ -1,6 +1,7 @@
 \documentclass{article}
 \usepackage{fancyhdr}% http://ctan.org/pkg/fancyhdr
 \usepackage{fontspec}
+\usepackage{amsmath}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
