@@ -1,5 +1,5 @@
 \documentclass{article}
-\usepackage{fancyhdr}% http://ctan.org/pkg/fancyhdr
+\usepackage{fancyhdr} % http://ctan.org/pkg/fancyhdr
 \usepackage{fontspec}
 \usepackage{amsmath}
 \usepackage{hyperref}
@@ -13,17 +13,32 @@
   \urlstyle{same}
 
 \providecommand{\tightlist}{%
-  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}  
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
+
+% Fancy stuff for tables
+\usepackage{makecell}
+\usepackage{multirow}
+\usepackage{colortbl}
+\usepackage{rotating}
+\usepackage{tabularray}
+\usepackage{hhline}
+\usepackage{longtable}
+
+\usepackage{tikz}
  
 \setmainfont{Times New Roman}
+
+% Setting Section and Subsetion numbering to Roman numberals
+\renewcommand\thesection{\Roman{section}}
+\renewcommand\thesubsection{\thesection\Roman{subsection}}
 
 $if(date)$
 \def\mydate{$date$}
 $endif$
 
-\def\myauthor{$author$}
 \def\mytitle{$title$}
 \def\mydate{\today}
+\def\myauthor{$author$}
 
 \pagestyle{fancy}
 \setlength{\headsep}{0.1in}
