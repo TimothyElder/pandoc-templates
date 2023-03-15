@@ -23,14 +23,13 @@
 \usepackage{tabularray}
 \usepackage{hhline}
 \usepackage{longtable}
+\usepackage{booktabs}
 
 \usepackage{tikz}
  
-\setmainfont{Times New Roman}
-
-% Setting Section and Subsetion numbering to Roman numberals
-\renewcommand\thesection{\Roman{section}}
-\renewcommand\thesubsection{\thesection\Roman{subsection}}
+% Setting Section and Subsetion numbering
+\renewcommand\thesection{\arabic{section}}
+\renewcommand\thesubsection{\thesection.\arabic{subsection}}
 
 $if(date)$
 \def\mydate{$date$}

@@ -882,7 +882,7 @@
           </group>
         </if>
       </choose>
-      <choose>
+      <!-- <choose>
         <if type="legal_case" match="none">
           <choose>
             <if variable="DOI">
@@ -893,7 +893,7 @@
             </else>
           </choose>
         </if>
-      </choose>
+      </choose> -->
     </group>
   </macro>
   <macro name="access">
@@ -914,7 +914,7 @@
           </group>
         </if>
       </choose>
-      <choose>
+      <!-- <choose>
         <if type="legal_case" match="none">
           <choose>
             <if variable="DOI">
@@ -925,7 +925,7 @@
             </else>
           </choose>
         </if>
-      </choose>
+      </choose> -->
     </group>
   </macro>
   <macro name="case-locator-subsequent">
