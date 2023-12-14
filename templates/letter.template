@@ -1,9 +1,18 @@
-\documentclass{article}
+\documentclass[12pt]{article}
 \usepackage[margin=1in]{geometry}
 \usepackage[export]{adjustbox}
 \usepackage{fancyhdr}
 \usepackage[T1]{fontenc} %changing monospaced font
-\usepackage{inconsolata}  % to inconsolata
+\usepackage{fontspec}
+\setromanfont[Mapping={tex-text},
+	Numbers={OldStyle},
+	Ligatures={Common}]{Cardo}
+
+\setsansfont[Mapping=tex-text,
+	Ligatures={Common},
+	Colour=018DE9]{Iosevka}
+
+\setmonofont[Mapping=tex-text,Scale=0.72]{Iosevka}
 \usepackage{hyperref}
 \hypersetup{
     colorlinks=true,
@@ -13,6 +22,9 @@
     citecolor = blue
     }
   \urlstyle{same}
+
+\providecommand{\tightlist}{%
+  \setlength{\itemsep}{0pt}\setlength{\parskip}{0pt}}
 
 % Fancy stuff for tables
 \usepackage{makecell}
@@ -26,28 +38,38 @@
 
 % For reference bibliography
 $if(csl-refs)$
+% definitions for citeproc citations
+\NewDocumentCommand\citeproctext{}{}
+\NewDocumentCommand\citeproc{mm}{%
+  \begingroup\def\citeproctext{#2}\cite{#1}\endgroup}
+\makeatletter
+ % allow citations to break across lines
+ \let\@cite@ofmt\@firstofone
+ % avoid brackets around text for \cite:
+ \def\@biblabel#1{}
+ \def\@cite#1#2{{#1\if@tempswa , #2\fi}}
+\makeatother
 \newlength{\cslhangindent}
 \setlength{\cslhangindent}{1.5em}
 \newlength{\csllabelwidth}
 \setlength{\csllabelwidth}{3em}
-\newlength{\cslentryspacingunit} % times entry-spacing
-\setlength{\cslentryspacingunit}{\parskip}
-\newenvironment{CSLReferences}[2] % #1 hanging-ident, #2 entry spacing
- {% don't indent paragraphs
-  \setlength{\parindent}{0pt}
+\newenvironment{CSLReferences}[2] % #1 hanging-indent, #2 entry-spacing
+ {\begin{list}{}{%
+  \setlength{\itemindent}{0pt}
+  \setlength{\leftmargin}{0pt}
+  \setlength{\parsep}{0pt}
   % turn on hanging indent if param 1 is 1
   \ifodd #1
-  \let\oldpar\par
-  \def\par{\hangindent=\cslhangindent\oldpar}
+   \setlength{\leftmargin}{\cslhangindent}
+   \setlength{\itemindent}{-1\cslhangindent}
   \fi
   % set entry spacing
-  \setlength{\parskip}{#2\cslentryspacingunit}
- }%
- {}
+  \setlength{\itemsep}{#2\baselineskip}}}
+ {\end{list}}
 \usepackage{calc}
-\newcommand{\CSLBlock}[1]{#1\hfill\break}
-\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{#1}}
-\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{#1}\break}
+\newcommand{\CSLBlock}[1]{\hfill\break#1\hfill\break}
+\newcommand{\CSLLeftMargin}[1]{\parbox[t]{\csllabelwidth}{\strut#1\strut}}
+\newcommand{\CSLRightInline}[1]{\parbox[t]{\linewidth - \csllabelwidth}{\strut#1\strut}}
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 $endif$
 
@@ -69,7 +91,7 @@ $endif$
 \begin{document}
 
 \begin{tabular}[t]{@{} l @{}}
-  \includegraphics[height=7\normalbaselineskip,valign=t]{/Users/timothyelder/Documents/UChicago_Graphic_Identity/University_Seal/RGB_PNG/university.seal.rgb.dark.gray} \\
+  \includegraphics[height=7\normalbaselineskip,valign=t]{/Users/timothyelder/Documents/UChicago_Graphic_Identity/University_Seal/RGB_PNG/university.seal.rgb.maroon} \\
   \\
   \bfseries \\ % title of search Committee "Faculty Search Committee"
   \itshape \\ % "Department of Cleverness "
@@ -83,12 +105,20 @@ $endif$
   \itshape {\myaddress} \\
   \itshape University of Chicago \\
    \texttt{\href{mailto:\myemail}{\myemail}} \\
-   \texttt{\href{http://timothyelder.com/}{\mysite}} \\
+   \texttt{\href{http://timothyelder.com/}{\mysite}} \\ \vspace{0.1in} \\
+   $if(title)$
+   $title$ \\
+   $endif$
   \\
   \today %change to get proper date
 \end{tabular}
 
 $body$
+
+\vspace*{-0.25cm}
+\includegraphics[width=50mm,scale=0.5]{/Users/timothyelder/Downloads/signature.png} \\
+% \vspace*{-0.5cm}
+Timothy B. Elder
 
 $if(natbib)$
 $if(biblio-files)$
