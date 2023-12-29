@@ -116,7 +116,7 @@ $endif$
 $body$
 
 \vspace*{-0.25cm}
-\includegraphics[width=50mm,scale=0.5]{/Users/timothyelder/Downloads/signature.png} \\
+\includegraphics[width=50mm,scale=0.5]{/Users/timothyelder/.pandoc/signature.png} \\
 % \vspace*{-0.5cm}
 Timothy B. Elder
 
