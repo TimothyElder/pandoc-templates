@@ -32,6 +32,7 @@
 \usepackage{hhline}
 \usepackage{color}
 \usepackage{tikz}
+\tikzset{every picture/.style={/utils/exec={\sffamily}}}
 \usepackage{fancyhdr}
 \usepackage{setspace}
 \usepackage{attrib}
