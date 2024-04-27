@@ -1,4 +1,24 @@
 \documentclass[article]{sa}
+\usepackage{fontspec}
+\usepackage{unicode-math} % Optional, only needed if you use the mathfont setting
+
+$if(mainfont)$
+  \setmainfont{$mainfont$}
+$endif$
+$if(sansfont)$
+  \setsansfont{$sansfont$}
+$endif$
+$if(monofont)$
+  \setmonofont{$monofont$}
+$endif$
+$if(mathfont)$
+  \setmathfont{$mathfont$}
+$endif$
+
+$for(header-includes)$
+$header-includes$
+$endfor$
+
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 %% declarations for sa.cls %%%
@@ -48,14 +68,21 @@ $endif$
 
 
 %% almost as usual
-\author{Georg Simmel\\University of Strasbourg \And 
-        Second Author\\Plus Affiliation}
+\author{$for(authors)$$authors.name$
+        $if(authors.affiliation)$\\
+        $authors.affiliation$
+        $endif$$sep$ \And $endfor$}
 \title{$title$}
 
 %% for pretty printing and a nice hypersummary also set:
-\Plainauthor{Georg Simmel, Second Author} %% comma-separated
+\Plainauthor{$for(authors)$$authors.name$$sep$ \and $endfor$} %% comma-separated
 \Plaintitle{$title$}
-\Shorttitle{$short-title$}
+
+$if(short-title)$
+  \Shorttitle{$short-title$}
+$else$
+  \Shorttitle{}
+$endif$
 
 %% an abstract and keywords
 \Abstract{
@@ -82,12 +109,13 @@ $endif$
 %% The address of (at least) one author should be given
 %% in the following format:
 \Address{
-  Georg Simmel\\
-  University of Strasbourg\\
-  Strasbourg, France\\
-  E-mail: \email{georg.simmel@unistra.fr}\\
-  URL: \url{http://en.wikipedia.org/wiki/Georg_Simmel}
+  $corresponding-author.name$\\
+  $corresponding-author.affiliation$\\
+  $corresponding-author.city-state$\\
+  E-mail: \email{$corresponding-author.email$}\\
+  URL: \url{http://$corresponding-author.url$}
 }
+
 %% It is also possible to add a telephone and fax number
 %% before the e-mail in the following format:
 %% Telephone: +43/512/507-7103

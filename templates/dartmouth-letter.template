@@ -6,11 +6,11 @@
 \usepackage{fontspec}
 \setromanfont[Mapping={tex-text},
 	Numbers={OldStyle},
-	Ligatures={Common}]{Cardo}
+	Ligatures={Common}]{Dartmouth Ruzicka}
 
 \setsansfont[Mapping=tex-text,
 	Ligatures={Common},
-	Colour=018DE9]{Iosevka}
+	Colour=018DE9]{National 2}
 
 \setmonofont[Mapping=tex-text,Scale=0.72]{Iosevka}
 \usepackage{hyperref}
@@ -77,9 +77,9 @@ $if(csl-refs)$
 $endif$
 
 \def\myauthor{Timothy B. Elder}
-\def\myaffiliation{University of Chicago}
-\def\myaddress{Department of Sociology}
-\def\myemail{timothyelder@uchicago.edu}
+\def\myaffiliation{Dartmouth College}
+\def\myaddress{Geisel School of Medicine}
+\def\myemail{timothyelder@dartmouth.edu}
 \def\myphone{(312) 985-6358}
 \def\mysite{timothyelder.com}
 
@@ -94,7 +94,7 @@ $endif$
 \begin{document}
 
 \begin{tabular}[t]{@{} l @{}}
-  \includegraphics[height=7\normalbaselineskip,valign=t]{/Users/timothyelder/Documents/UChicago_Graphic_Identity/University_Seal/RGB_PNG/university.seal.rgb.maroon} \\
+  \includegraphics[height=5\normalbaselineskip,valign=t]{/Users/timothyelder/Documents/Dartmouth_Graphic_Identity/D-Pine_all_formats/D-Pine_CMYK.png} \\
   \\
   \bfseries \\ % title of search Committee "Faculty Search Committee"
   \itshape \\ % "Department of Cleverness "
@@ -106,7 +106,7 @@ $endif$
 \begin{tabular}[t]{@{} r @{}}
   \bfseries Timothy B. Elder \\
   \itshape {\myaddress} \\
-  \itshape University of Chicago \\
+  \itshape Dartmouth College \\
    \texttt{\href{mailto:\myemail}{\myemail}} \\
    \texttt{\href{http://timothyelder.com/}{\mysite}} \\ \vspace{0.1in} \\
    $if(title)$

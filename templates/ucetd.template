@@ -6,11 +6,24 @@
 \usepackage{amsthm}
 \usepackage{attrib}
 \usepackage{verse}
-\usepackage[hidelinks]{hyperref}
 \usepackage{unicode-math}
 \usepackage{booktabs}
+\usepackage{geometry}
+\usepackage{threeparttable}
+\usepackage{afterpage}
+
 
 %% CUSTOM THINGS I ADDED (TIMOTHY ELDER)
+
+\usepackage{fancyhdr}
+
+% Define a landscape page style with fancyhdr
+\fancypagestyle{lscape}{
+  \fancyhf{} % clear all header and footer fields
+  \fancyfoot[C]{\vspace*{2\baselineskip}\thepage} % Adjust the vertical space as needed
+  \renewcommand{\headrulewidth}{0pt} % Remove the header rule
+  \renewcommand{\footrulewidth}{0pt} % Remove the footer rule
+}
 
 \usepackage[labelfont=bf]{caption}
 \captionsetup{labelfont=bf}
@@ -62,6 +75,9 @@ $endif$
 
 $endif$
 
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%%%% BIBLIOGRAPHY STUFF %%%%%%%%%%%%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
 $if(csl-refs)$
 % definitions for citeproc citations
 \NewDocumentCommand\citeproctext{}{}
@@ -98,6 +114,8 @@ $if(csl-refs)$
 \newcommand{\CSLIndent}[1]{\hspace{\cslhangindent}#1}
 $endif$
 
+\usepackage[linktocpage=true,hidelinks]{hyperref}
+
 %% Use these commands to set biographic information for the title page:
 \title{$title$}
 \author{$author$}
@@ -122,6 +140,7 @@ $endif$
 
 %% Make the various tables of contents
 \tableofcontents
+\setcounter{page}{7}
 \listoffigures
 \listoftables
 
