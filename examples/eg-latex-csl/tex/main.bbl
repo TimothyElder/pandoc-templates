@@ -1,0 +1,409 @@
+\cslsetup{class = in-text}
+
+\cslcitation{Tesler2010-ty@1}{(\cslcite{Tesler2010-ty}{Tesler 2010})}
+\cslcitation{Kaplan2020-lo@1}{(\cslcite{Kaplan2020-lo}{Kaplan et al. 2020})}
+\cslcitation{Brown2020-nh@1}{(\cslcite{Brown2020-nh}{Brown et al. 2020})}
+\cslcitation{DellAcqua2023-fo,Mollick2023-wy@1}{(\cslcite{DellAcqua2023-fo}{Dell’Acqua et al. 2023}; \cslcite{Mollick2023-wy}{Mollick and Mollick 2023})}
+\cslcitation{Turing1950-in@1}{(\cslcite{Turing1950-in}{Turing 1950})}
+\cslcitation{Ouyang2022-xw@1}{(\cslcite{Ouyang2022-xw}{Ouyang et al. 2022})}
+\cslcitation{Argyle2023-ii,Kim2023-ji,Park2022-py@1}{(\cslcite{Argyle2023-ii}{Argyle et al. 2023}; \cslcite{Kim2023-ji}{Kim and Lee 2023}; \cslcite{Park2022-py}{Park et al. 2022})}
+\cslcitation{Garcia-Pardina2022-cx@1}{(\cslcite{Garcia-Pardina2022-cx}{Garcia-Pardina et al. 2022})}
+\cslcitation{Converse1964-kv,DellaPosta2020-ta,Hunzaker2019-ds@1}{(\cslcite{Converse1964-kv}{Converse 1964}; \cslcite{DellaPosta2020-ta}{DellaPosta 2020}; \cslcite{Hunzaker2019-ds}{Hunzaker and Valentino 2019})}
+\cslcitation{Gadarian2021-su@1}{(\cslcite{Gadarian2021-su}{Gadarian, Goodman, and Pepinsky 2021})}
+\cslcitation{OpenAI2023-wo@1}{(\cslcite{OpenAI2023-wo}{OpenAI 2023b})}
+\cslcitation{Kaplan2008-nm@1}{(\cslcite{Kaplan2008-nm}{Kaplan 2008})}
+\cslcitation{Ji2023-ut@1}{(\cslcite{Ji2023-ut}{Ji et al. 2023})}
+\cslcitation{Kim2023-ji,Kozlowski2019-vh@1}{(\cslcite{Kim2023-ji}{Kim and Lee 2023}; \cslcite{Kozlowski2019-vh}{Kozlowski, Taddy, and Evans 2019})}
+\cslcitation{Bonikowski2022-th,Grimmer2022-fu,Hannan2022-bs,Le_Mens2023-wa,Vicinanza_undated-cj@1}{(\cslcite{Bonikowski2022-th}{Bonikowski, Luo, and Stuhler 2022}; \cslcite{Grimmer2022-fu}{Grimmer, Roberts, and Stewart 2022}; \cslcite{Hannan2022-bs}{Hannan 2022}; \cslcite{Le_Mens2023-wa}{Le Mens et al. 2023}; \cslcite{Vicinanza_undated-cj}{Vicinanza, Goldberg, and Srivastava n.d.})}
+\cslcitation{Senior2020-ee@1}{(\cslcite{Senior2020-ee}{Senior et al. 2020})}
+\cslcitation{Jimenez-Luna2020-tg@1}{(\cslcite{Jimenez-Luna2020-tg}{Jiménez-Luna, Grisoni, and Schneider 2020})}
+\cslcitation{Wilkins2023-mx,Zhou2018-cw@1}{(\cslcite{Wilkins2023-mx}{Wilkins 2023}; \cslcite{Zhou2018-cw}{Zhou et al. 2018})}
+\cslcitation{Degrave2022-zi@1}{(\cslcite{Degrave2022-zi}{Degrave et al. 2022})}
+\cslcitation{Jiao2021-mb,Mosavi2020-hy@1}{(\cslcite{Jiao2021-mb}{Jiao et al. 2021}; \cslcite{Mosavi2020-hy}{Mosavi et al. 2020})}
+\cslcitation{Brynjolfsson2023-yu,Sourati2023-aa@1}{(\cslcite{Brynjolfsson2023-yu}{Brynjolfsson 2023}; \cslcite{Sourati2023-aa}{Sourati and Evans 2023})}
+\cslcitation{Lai2024-qg@1}{(\cslcite{Lai2024-qg}{Lai et al. 2024})}
+\cslcitation{Gentzkow2019-vu,Grimmer2022-fu@1}{(\cslcite{Gentzkow2019-vu}{Gentzkow, Kelly, and Taddy 2019}; \cslcite{Grimmer2022-fu}{Grimmer, Roberts, and Stewart 2022})}
+\cslcitation{Mikolov2013-va,Pennington2014-dz@1}{(\cslcite{Mikolov2013-va}{Mikolov et al. 2013}; \cslcite{Pennington2014-dz}{Pennington, Socher, and Manning 2014})}
+\cslcitation{Boutyline2023-sr,Garg2018-jf,Kozlowski2019-vh,Stoltz2019-mx@1}{(\cslcite{Boutyline2023-sr}{Boutyline, Arseniev-Koehler, and Cornell 2023}; \cslcite{Garg2018-jf}{Garg et al. 2018}; \cslcite{Kozlowski2019-vh}{Kozlowski, Taddy, and Evans 2019}; \cslcite{Stoltz2019-mx}{Stoltz and Taylor 2019})}
+\cslcitation{Brown2020-nh@2}{(\cslcite{Brown2020-nh}{Brown et al. 2020})}
+\cslcitation{Vaswani2017-wi@1}{(\cslcite{Vaswani2017-wi}{Vaswani et al. 2017})}
+\cslcitation{Kaplan2020-lo@2}{(\cslcite{Kaplan2020-lo}{Kaplan et al. 2020})}
+\cslcitation{Devlin2018-um,Mikolov2013-va@1}{(\cslcite{Devlin2018-um}{Devlin et al. 2018}; \cslcite{Mikolov2013-va}{Mikolov et al. 2013})}
+\cslcitation{Sutskever2023-sa@1}{Sutskever (\cslcite{Sutskever2023-sa}{2023})}
+\cslcitation{Gagniuc2017-xm,Hayes2013-yb@1}{(\cslcite{Gagniuc2017-xm}{Gagniuc 2017}; \cslcite{Hayes2013-yb}{Hayes 2013})}
+\cslcitation{Shannon1951-ct@1}{(\cslcite{Shannon1951-ct}{Shannon 1951})}
+\cslcitation{Rosenfeld2000-rq@1}{(\cslcite{Rosenfeld2000-rq}{Rosenfeld 2000})}
+\cslcitation{Xue2020-qb@1}{(\cslcite{Xue2020-qb}{Xue et al. 2020})}
+\cslcitation{Vaswani2017-wi@2}{(\cslcite{Vaswani2017-wi}{Vaswani et al. 2017})}
+\cslcitation{Ouyang2022-xw@2}{(\cslcite{Ouyang2022-xw}{Ouyang et al. 2022})}
+\cslcitation{Vaswani2017-wi@3}{(\cslcite{Vaswani2017-wi}{Vaswani et al. 2017})}
+\cslcitation{Mikolov2013-va,Pennington2014-dz@2}{(\cslcite{Mikolov2013-va}{Mikolov et al. 2013}; \cslcite{Pennington2014-dz}{Pennington, Socher, and Manning 2014})}
+\cslcitation{Argyle2023-ii@1}{(\cslcite{Argyle2023-ii}{Argyle et al. 2023})}
+\cslcitation{Argyle2023-ii@2}{(\cslcite{Argyle2023-ii}{Argyle et al. 2023})}
+\cslcitation{Brown2020-nh@3}{(\cslcite{Brown2020-nh}{Brown et al. 2020})}
+\cslcitation{OpenAI2023-kd@1}{(\cslcite{OpenAI2023-kd}{OpenAI 2023a})}
+\cslcitation{Ouyang2022-xw@3}{(\cslcite{Ouyang2022-xw}{Ouyang et al. 2022})}
+\cslcitation{Argyle2023-ii@3}{(\cslcite{Argyle2023-ii}{Argyle et al. 2023})}
+\cslcitation{Von_Oswald2023-xc@1}{(\cslcite{Von_Oswald2023-xc}{Von Oswald et al. 2023})}
+\cslcitation{Dai2023-bg@1}{(\cslcite{Dai2023-bg}{Dai et al. 2023})}
+\cslcitation{Douglas1966-re,Levi-Strauss1966-fw@1}{(\cslcite{Douglas1966-re}{Douglas 1966}; \cslcite{Levi-Strauss1966-fw}{Lévi-Strauss 1966})}
+\cslcitation{Mead1942-zm@1}{(\cslcite{Mead1942-zm}{Mead 1942})}
+\cslcitation{Swidler2003-il@1}{(\cslcite{Swidler2003-il}{Swidler 2003})}
+\cslcitation{DiMaggio1997-rx@1}{(\cslcite{DiMaggio1997-rx}{DiMaggio 1997})}
+\cslcitation{Baldassarri2014-mi,Boutyline2017-vj,Kiley2020-hi,Rawlings2020-yb,Swidler2003-il@1}{(\cslcite{Baldassarri2014-mi}{Baldassarri and Goldberg 2014}; \cslcite{Boutyline2017-vj}{Boutyline and Vaisey 2017}; \cslcite{Kiley2020-hi}{Kiley and Vaisey 2020}; \cslcite{Rawlings2020-yb}{Rawlings 2020}; \cslcite{Swidler2003-il}{Swidler 2003})}
+\cslcitation{Feldman1992-lf,Goren2016-rw,Haidt2012-fy,Lakoff2010-yy@1}{(\cslcite{Feldman1992-lf}{Feldman and Zaller 1992}; \cslcite{Goren2016-rw}{Goren et al. 2016}; \cslcite{Haidt2012-fy}{Haidt 2012}; \cslcite{Lakoff2010-yy}{Lakoff 2010})}
+\cslcitation{Carmines1989-yi,Zaller1992-eq@1}{(\cslcite{Carmines1989-yi}{Carmines and Stimson 1989}; \cslcite{Zaller1992-eq}{Zaller 1992})}
+\cslcitation{Green2004-eq@1}{(\cslcite{Green2004-eq}{Green, Palmquist, and Schickler 2004})}
+\cslcitation{Noel2014-es,Page2010-yj,Zaller1992-eq@1}{(\cslcite{Noel2014-es}{Noel 2014}; \cslcite{Page2010-yj}{Page and Shapiro 2010}; \cslcite{Zaller1992-eq}{Zaller 1992})}
+\cslcitation{Mills1940-xp@1}{(\cslcite{Mills1940-xp}{Mills 1940})}
+\cslcitation{Goffman2021-xf@1}{(\cslcite{Goffman2021-xf}{Goffman 2021})}
+\cslcitation{Deane_undated-zp@1}{(\cslcite{Deane_undated-zp}{Deane, Parker, and Gramlich n.d.})}
+\cslcitation{Stokes2020-vw@1}{(\cslcite{Stokes2020-vw}{Stokes et al. 2020})}
+\cslcitation{Gadarian2021-su@2}{(\cslcite{Gadarian2021-su}{Gadarian, Goodman, and Pepinsky 2021})}
+\cslcitation{Albrecht2022-kj,Allcott2020-iy,Chen2022-eb@1}{(\cslcite{Albrecht2022-kj}{Albrecht 2022}; \cslcite{Allcott2020-iy}{Allcott et al. 2020}; \cslcite{Chen2022-eb}{Chen and Karim 2022})}
+\cslcitation{Homer2009-gw@1}{(\cslcite{Homer2009-gw}{Homer and French 2009})}
+\cslcitation{Feldman1992-lf,Haidt2012-fy@1}{(\cslcite{Feldman1992-lf}{Feldman and Zaller 1992}; \cslcite{Haidt2012-fy}{Haidt 2012})}
+\cslcitation{Jost2006-wm@1}{(\cslcite{Jost2006-wm}{Jost 2006})}
+\cslcitation{Haidt2012-fy,Helzer2011-ni,Jost2017-sj,Oxley2008-pi,Terrizzi2013-po@1}{(\cslcite{Haidt2012-fy}{Haidt 2012}; \cslcite{Helzer2011-ni}{Helzer and Pizarro 2011}; \cslcite{Jost2017-sj}{Jost 2017}; \cslcite{Oxley2008-pi}{Oxley et al. 2008}; \cslcite{Terrizzi2013-po}{Terrizzi, Shook, and McDaniel 2013})}
+\cslcitation{Pew_Research_Center2014-gi@1}{(\cslcite{Pew_Research_Center2014-gi}{Pew Research Center 2014})}
+\cslcitation{Callaghan2019-zh,Colgrove2006-jy,Conis2014-qi,Jamison2019-yo@1}{(\cslcite{Callaghan2019-zh}{Callaghan et al. 2019}; \cslcite{Colgrove2006-jy}{Colgrove 2006}; \cslcite{Conis2014-qi}{Conis 2014}; \cslcite{Jamison2019-yo}{Jamison, Quinn, and Freimuth 2019})}
+\cslcitation{Rosentiel2011-pi@1}{(\cslcite{Rosentiel2011-pi}{Rosentiel 2011})}
+\cslcitation{DellaPosta2020-ta,Rawlings2022-pw@1}{(\cslcite{DellaPosta2020-ta}{DellaPosta 2020}; \cslcite{Rawlings2022-pw}{Rawlings 2022})}
+\cslcitation{Furr2021-ud@1}{(\cslcite{Furr2021-ud}{Furr 2021})}
+\cslcitation{Tourangeau2000-tk,Willis2004-lr@1}{(\cslcite{Tourangeau2000-tk}{Tourangeau, Rips, and Rasinski 2000}; \cslcite{Willis2004-lr}{Willis 2004})}
+\cslcitation{Neelakantan2022-yd@1}{(\cslcite{Neelakantan2022-yd}{Neelakantan et al. 2022})}
+\cslcitation{Neelakantan2022-yd@2}{(\cslcite{Neelakantan2022-yd}{Neelakantan et al. 2022})}
+\cslcitation{Gadarian2021-su@3}{Gadarian, Goodman, and Pepinsky (\cslcite{Gadarian2021-su}{2021})}
+\cslcitation{McCarthy2023-xj@1}{(\cslcite{McCarthy2023-xj}{McCarthy 2023})}
+\cslcitation{Tourangeau2000-tk@1}{(\cslcite{Tourangeau2000-tk}{Tourangeau, Rips, and Rasinski 2000})}
+\cslcitation{Jost2006-wm@2}{(\cslcite{Jost2006-wm}{Jost 2006})}
+\cslcitation{Bengio2009-ig@1}{(\cslcite{Bengio2009-ig}{Bengio et al. 2009})}
+\cslcitation{Giddens1984-vx@1}{(\cslcite{Giddens1984-vx}{Giddens 1984})}
+\cslcitation{Coleman1994-ay@1}{(\cslcite{Coleman1994-ay}{Coleman 1994})}
+\cslcitation{Pearl2009-on@1}{(\cslcite{Pearl2009-on}{Pearl 2009})}
+\cslcitation{McCloskey1989-rg,Ratcliff1990-bk@1}{(\cslcite{McCloskey1989-rg}{McCloskey and Cohen 1989}; \cslcite{Ratcliff1990-bk}{Ratcliff 1990})}
+\cslcitation{Bills2023-db,Elhage2022-bh@1}{(\cslcite{Bills2023-db}{Bills et al. 2023}; \cslcite{Elhage2022-bh}{Elhage et al. 2022})}
+\cslcitation{Hendel2023-ij@1}{(\cslcite{Hendel2023-ij}{Hendel, Geva, and Globerson 2023})}
+\cslcitation{Guilbeault2024-wz,Ludwig2024-nl@1}{(\cslcite{Guilbeault2024-wz}{Guilbeault et al. 2024}; \cslcite{Ludwig2024-nl}{Ludwig and Mullainathan 2024})}
+
+
+
+
+\begin{thebibliography}{index = 1, hanging-indent = true, line-spacing = 1, entry-spacing = 1}
+
+\bibitem{Albrecht2022-kj}
+Albrecht, Don. 2022. “Vaccination, Politics and COVID-19 Impacts.” \textit{BMC Public Health} 22(1):96.
+
+\bibitem{Allcott2020-iy}
+Allcott, Hunt et al. 2020. “Polarization and Public Health: Partisan Differences in Social Distancing during the Coronavirus Pandemic.” \textit{Journal of Public Economics} 191:104254.
+
+\bibitem{Argyle2023-ii}
+Argyle, Lisa P. et al. 2023. “Out of One, Many: Using Language Models to Simulate Human Samples.” \textit{Political Analysis} 31:337–51.
+
+\bibitem{Baldassarri2014-mi}
+Baldassarri, Delia and Amir Goldberg. 2014. “Neither Ideologues nor Agnostics: Alternative Voters’ Belief System in an Age of Partisan Politics.” \textit{American Journal of Sociology} 120(1):45–95.
+
+\bibitem{Bengio2009-ig}
+Bengio, Yoshua, Jérôme Louradour, Ronan Collobert, and Jason Weston. 2009. “Curriculum Learning.” Pp. 41–48 in \textit{Proceedings of the 26th Annual International Conference on Machine Learning}, \textit{ICML ’09}. Montreal, Quebec, Canada: Association for Computing Machinery.
+
+\bibitem{Bills2023-db}
+Bills, Steven et al. 2023. “Language Models Can Explain Neurons in Language Models.” \textit{URL Https://Openaipublic. Blob. Core. Windows. Net/Neuron-Explainer/Paper/Index. Html. (Date Accessed: 14. 05. 2023)}.
+
+\bibitem{Bonikowski2022-th}
+Bonikowski, Bart, Yuchen Luo, and Oscar Stuhler. 2022. “Politics as Usual? Measuring Populism, Nationalism, and Authoritarianism in U.S. Presidential Campaigns (1952–2020) with Neural Language Models.” \textit{Sociological Methods \& Research} 51(4):1721–87.
+
+\bibitem{Boutyline2023-sr}
+Boutyline, Andrei, Alina Arseniev-Koehler, and Devin J. Cornell. 2023. “School, Studying, and Smarts: Gender Stereotypes and Education across 80 Years of American Print Media, 1930–2009.” \textit{Social Forces} 102(1):263–86.
+
+\bibitem{Boutyline2017-vj}
+Boutyline, Andrei and Stephen Vaisey. 2017. “Belief Network Analysis: A Relational Approach to Understanding the Structure of Attitudes.” \textit{The American Journal of Sociology} 122(5):1371–1447.
+
+\bibitem{Brown2020-nh}
+Brown, Tom B. et al. 2020. “Language Models Are Few-Shot Learners.” \textit{ArXiv} 2005.14165.
+
+\bibitem{Brynjolfsson2023-yu}
+Brynjolfsson, Erik. 2023. “The Turing Trap: The Promise \& Peril of Human-like Artificial Intelligence.” Pp. 103–16 in \textit{Augmented education in the global age}. Routledge.
+
+\bibitem{Callaghan2019-zh}
+Callaghan, Timothy, Matthew Motta, Steven Sylvester, Kristin Lunz Trujillo, and Christine Crudo Blackburn. 2019. “Parent Psychology and the Decision to Delay Childhood Vaccination.” \textit{Social Science \& Medicine (1982)} 238:112407.
+
+\bibitem{Carmines1989-yi}
+Carmines, Edward G. and James A. Stimson. 1989. \textit{Issue Evolution: Race and the Transformation of American Politics}. Princeton University Press.
+
+\bibitem{Chen2022-eb}
+Chen, Hsueh-Fen and Saleema A. Karim. 2022. “Relationship between Political Partisanship and COVID-19 Deaths: Future Implications for Public Health.” \textit{Journal of Public Health} 44(3):716–23.
+
+\bibitem{Coleman1994-ay}
+Coleman, James S. 1994. \textit{Foundations of Social Theory}. Harvard University Press.
+
+\bibitem{Colgrove2006-jy}
+Colgrove, James. 2006. \textit{State of Immunity: The Politics of Vaccination in Twentieth-Century America}. University of California Press.
+
+\bibitem{Conis2014-qi}
+Conis, Elena. 2014. \textit{Vaccine Nation}. University of Chicago Press.
+
+\bibitem{Converse1964-kv}
+Converse, Philip. 1964. “The Nature of Belief Systems in Mass Publics.” in \textit{Ideology and discontent}, edited by D. Apter. New York: Free Press.
+
+\bibitem{Dai2023-bg}
+Dai, Damai et al. 2023. “Why Can GPT Learn In-Context? Language Models Implicitly Perform Gradient Descent as Meta-Optimizers.”
+
+\bibitem{Deane_undated-zp}
+Deane, C., K. Parker, and J. Gramlich. n.d. “A Year of US Public Opinion on the Coronavirus Pandemic.”
+
+\bibitem{Degrave2022-zi}
+Degrave, Jonas et al. 2022. “Magnetic Control of Tokamak Plasmas through Deep Reinforcement Learning.” \textit{Nature} 602(7897):414–19.
+
+\bibitem{DellAcqua2023-fo}
+Dell’Acqua, Fabrizio et al. 2023. “Navigating the Jagged Technological Frontier: Field Experimental Evidence of the Effects of AI on Knowledge Worker Productivity and Quality.”
+
+\bibitem{DellaPosta2020-ta}
+DellaPosta, Daniel. 2020. “Pluralistic Collapse: The ‘Oil Spill’ Model of Mass Opinion Polarization.” \textit{American Sociological Review} 85(3):507–36.
+
+\bibitem{Devlin2018-um}
+Devlin, Jacob, Ming-Wei Chang, Kenton Lee, and Kristina Toutanova. 2018. “BERT: Pre-Training of Deep Bidirectional Transformers for Language Understanding.” \textit{ArXiv}.
+
+\bibitem{DiMaggio1997-rx}
+DiMaggio, Paul. 1997. “Culture and Cognition.” \textit{Annual Review of Sociology} 23(1):263–87.
+
+\bibitem{Douglas1966-re}
+Douglas, Mary. 1966. \textit{Purity and Danger: An Analysis of Concepts of Pollution and Taboo}. Routledge \& Kegan Paul.
+
+\bibitem{Elhage2022-bh}
+Elhage, Nelson et al. 2022. “Toy Models of Superposition.” \textit{ArXiv} 2209.10652.
+
+\bibitem{Feldman1992-lf}
+Feldman, Stanley and John Zaller. 1992. “The Political Culture of Ambivalence: Ideological Responses to the Welfare State.” \textit{American Journal of Political Science} 36(1):268–307.
+
+\bibitem{Furr2021-ud}
+Furr, Michael. 2021. \textit{Psychometrics: An Introduction}. SAGE Publications.
+
+\bibitem{Gadarian2021-su}
+Gadarian, Shana Kushner, Sara Wallace Goodman, and Thomas B. Pepinsky. 2021. “Partisanship, Health Behavior, and Policy Attitudes in the Early Stages of the COVID-19 Pandemic.” \textit{PloS One} 16(4):e0249596.
+
+\bibitem{Gagniuc2017-xm}
+Gagniuc, Paul A. 2017. \textit{Markov Chains: From Theory to Implementation and Experimentation}. John Wiley \& Sons.
+
+\bibitem{Garcia-Pardina2022-cx}
+Garcia-Pardina, Alejandro, Francisco José Abad, Alexander P. Christensen, Hudson Golino, and Luis Eduardo Garrido. 2022. “Dimensionality Assessment in the Presence of Wording Effects: A Network Psychometric and Factorial Approach.” \textit{PsyArXiv}.
+
+\bibitem{Garg2018-jf}
+Garg, Nikhil, Londa Schiebinger, Dan Jurafsky, and James Zou. 2018. “Word Embeddings Quantify 100 Years of Gender and Ethnic Stereotypes.” \textit{Proceedings of the National Academy of Sciences} 115(16):E3635–44.
+
+\bibitem{Gentzkow2019-vu}
+Gentzkow, Matthew, Bryan Kelly, and Matt Taddy. 2019. “Text as Data.” \textit{Journal of Economic Literature} 57(3):535–74.
+
+\bibitem{Giddens1984-vx}
+Giddens, Anthony. 1984. \textit{The Constitution of Society: Outline of the Theory of Structuration}. University of California Press.
+
+\bibitem{Goffman2021-xf}
+Goffman, Erving. 2021. \textit{The Presentation of Self in Everyday Life}. Knopf Doubleday Publishing Group.
+
+\bibitem{Goren2016-rw}
+Goren, Paul, Harald Schoen, Jason Reifler, Thomas Scotto, and William Chittick. 2016. “A Unified Theory of Value-Based Reasoning and U.S. Public Opinion.” \textit{Political Behavior} 38(4):977–97.
+
+\bibitem{Green2004-eq}
+Green, Donald P., Bradley Palmquist, and Eric Schickler. 2004. \textit{Partisan Hearts and Minds: Political Parties and the Social Identities of Voters}. Yale University Press.
+
+\bibitem{Grimmer2022-fu}
+Grimmer, Justin, Margaret E. Roberts, and Brandon M. Stewart. 2022. \textit{Text as Data: A New Framework for Machine Learning and the Social Sciences}. Princeton University Press.
+
+\bibitem{Guilbeault2024-wz}
+Guilbeault, Douglas et al. 2024. “Online Images Amplify Gender Bias.” \textit{Nature} 626(8001):1049–55.
+
+\bibitem{Haidt2012-fy}
+Haidt, Jonathan. 2012. \textit{The Righteous Mind: Why Good People Are Divided by Politics and Religion}. Knopf Doubleday Publishing Group.
+
+\bibitem{Hannan2022-bs}
+Hannan, Michael. 2022. “Measuring Memberships in Collectives in Light of Developments in Cognitive Science and Natural-Language Processing.” \textit{Sociological Science} 9:473–92.
+
+\bibitem{Hayes2013-yb}
+Hayes, Brian. 2013. “First Links in the Markov Chain.” \textit{American Scientist} 101(2):92.
+
+\bibitem{Helzer2011-ni}
+Helzer, Erik G. and David A. Pizarro. 2011. “Dirty Liberals! Reminders of Physical Cleanliness Influence Moral and Political Attitudes.” \textit{Psychological Science} 22(4):517–22.
+
+\bibitem{Hendel2023-ij}
+Hendel, Roee, Mor Geva, and Amir Globerson. 2023. “In-Context Learning Creates Task Vectors.” \textit{ArXiv} 2310.15916.
+
+\bibitem{Homer2009-gw}
+Homer, Jenny and Michael French. 2009. “Motorcycle Helmet Laws in the United States from 1990 to 2005: Politics and Public Health.” \textit{American Journal of Public Health} 99(3):415–23.
+
+\bibitem{Hunzaker2019-ds}
+Hunzaker, M. B. Fallin and Lauren Valentino. 2019. “Mapping Cultural Schemas: From Theory to Method.” \textit{American Sociological Review} 84(5):950–81.
+
+\bibitem{Jamison2019-yo}
+Jamison, Amelia M., Sandra Crouse Quinn, and Vicki S. Freimuth. 2019. “‘You Don’t Trust a Government Vaccine’: Narratives of Institutional Trust and Influenza Vaccination among African American and White Adults.” \textit{Social Science \& Medicine (1982)} 221:87–94.
+
+\bibitem{Ji2023-ut}
+Ji, Ziwei et al. 2023. “Towards Mitigating Hallucination in Large Language Models via Self-Reflection.” \textit{ArXiv} 2310.06271.
+
+\bibitem{Jiao2021-mb}
+Jiao, Yutao, Ping Wang, Dusit Niyato, Bin Lin, and Dong In Kim. 2021. “Toward an Automated Auction Framework for Wireless Federated Learning Services Market.” \textit{IEEE Transactions on Mobile Computing} 20(10):3034–48.
+
+\bibitem{Jimenez-Luna2020-tg}
+Jiménez-Luna, José, Francesca Grisoni, and Gisbert Schneider. 2020. “Drug Discovery with Explainable Artificial Intelligence.” \textit{Nature Machine Intelligence} 2(10):573–84.
+
+\bibitem{Jost2006-wm}
+Jost, John T. 2006. “The End of the End of Ideology.” \textit{The American Psychologist} 61(7):651–70.
+
+\bibitem{Jost2017-sj}
+Jost, John T. 2017. “Ideological Asymmetries and the Essence of Political Psychology.” \textit{Political Psychology} 38(2):167–208.
+
+\bibitem{Kaplan2020-lo}
+Kaplan, Jared et al. 2020. “Scaling Laws for Neural Language Models.” \textit{ArXiv} 2001.08361.
+
+\bibitem{Kaplan2008-nm}
+Kaplan, Sarah. 2008. “Framing Contests: Strategy Making under Uncertainty.” \textit{Organization Science} 19(5):729–52.
+
+\bibitem{Kiley2020-hi}
+Kiley, Kevin and Stephen Vaisey. 2020. “Measuring Stability and Change in Personal Culture Using Panel Data.” \textit{American Sociological Review} 85(3):477–506.
+
+\bibitem{Kim2023-ji}
+Kim, Junsol and Byungkyu Lee. 2023. “AI-Augmented Surveys: Leveraging Large Language Models for Opinion Prediction in Nationally Representative Surveys.” \textit{ArXiv} 2305.09620.
+
+\bibitem{Kozlowski2019-vh}
+Kozlowski, Austin C., Matt Taddy, and James A. Evans. 2019. “The Geometry of Culture: Analyzing the Meanings of Class through Word Embeddings.” \textit{American Sociological Review} 84(5):905–49.
+
+\bibitem{Lai2024-qg}
+Lai, Shiyang et al. 2024. “Evolving AI Collectives to Enhance Human Diversity and Enable Self-Regulation.” \textit{ArXiv} 2402.12590.
+
+\bibitem{Lakoff2010-yy}
+Lakoff, George. 2010. \textit{Moral Politics: How Liberals and Conservatives Think, Second Edition}. University of Chicago Press.
+
+\bibitem{Le_Mens2023-wa}
+Le Mens, Gaël, Balázs Kovács, Michael Hannan, and Guillem Pros. 2023. “Using Machine Learning to Uncover the Semantics of Concepts: How Well Do Typicality Measures Extracted from a BERT Text Classifier Match Human Judgments of Genre Typicality?” \textit{Sociological Science} 10:82–117.
+
+\bibitem{Levi-Strauss1966-fw}
+Lévi-Strauss, Claude. 1966. \textit{The Savage Mind}. University of Chicago Press.
+
+\bibitem{Ludwig2024-nl}
+Ludwig, J. and S. Mullainathan. 2024. “Machine Learning as a Tool for Hypothesis Generation.” \textit{The Quarterly Journal of Economics}.
+
+\bibitem{McCarthy2023-xj}
+McCarthy, Justin. 2023. “Roundup of Gallup COVID-19 Coverage.” \textit{Gallup.Com}. Retrieved (\url{https://web.archive.org/web/20230322222821/https://news.gallup.com/opinion/gallup/308126/roundup-gallup-covid-coverage.aspx}).
+
+\bibitem{McCloskey1989-rg}
+McCloskey, Michael and Neal J. Cohen. 1989. “Catastrophic Interference in Connectionist Networks: The Sequential Learning Problem.” Pp. 109–65 in \textit{Psychology of learning and motivation}, vol. 24, edited by G. H. Bower. Academic Press.
+
+\bibitem{Mead1942-zm}
+Mead, Margaret. 1942. \textit{And Keep Your Powder Dry}. New York: William Morrow.
+
+\bibitem{Mikolov2013-va}
+Mikolov, Tomas, Kai Chen, Greg Corrado, and Jeffrey Dean. 2013. “Efficient Estimation of Word Representations in Vector Space.” \textit{ArXiv} 1301.3781.
+
+\bibitem{Mills1940-xp}
+Mills, C. Wright. 1940. “Situated Actions and Vocabularies of Motive.” \textit{American Sociological Review} 5(6):904–13.
+
+\bibitem{Mollick2023-wy}
+Mollick, Ethan R. and Lilach Mollick. 2023. “Using AI to Implement Effective Teaching Strategies in Classrooms: Five Strategies, Including Prompts.”
+
+\bibitem{Mosavi2020-hy}
+Mosavi, Amir et al. 2020. \textit{Comprehensive Review of Deep Reinforcement Learning Methods and Applications in Economics}. SSRN.
+
+\bibitem{Neelakantan2022-yd}
+Neelakantan, Arvind et al. 2022. “Text and Code Embeddings by Contrastive Pre-Training.” \textit{ArXiv} 2201.10005.
+
+\bibitem{Noel2014-es}
+Noel, Hans. 2014. \textit{Political Ideologies and Political Parties in America}. Cambridge University Press.
+
+\bibitem{OpenAI2023-kd}
+OpenAI. 2023a. “GPT-4 Technical Report.” \textit{ArXiv} 2303.08774.
+
+\bibitem{OpenAI2023-wo}
+OpenAI. 2023b. “Models.” Retrieved (\url{https://platform.openai.com/docs/models/}).
+
+\bibitem{Ouyang2022-xw}
+Ouyang, Long et al. 2022. “Training Language Models to Follow Instructions with Human Feedback” edited by S. Koyejo et al. \textit{ArXiv} 2203.02155.
+
+\bibitem{Oxley2008-pi}
+Oxley, Douglas R. et al. 2008. “Political Attitudes Vary with Physiological Traits.” \textit{Science} 321(5896):1667–70.
+
+\bibitem{Page2010-yj}
+Page, Benjamin I. and Robert Y. Shapiro. 2010. \textit{The Rational Public: Fifty Years of Trends in Americans’ Policy Preferences}. University of Chicago Press.
+
+\bibitem{Park2022-py}
+Park, Joon Sung et al. 2022. “Social Simulacra: Creating Populated Prototypes for Social Computing Systems.” Pp. 1–18 in \textit{Proceedings of the 35th Annual ACM Symposium on User Interface Software and Technology}, \textit{UIST ’22}. Bend, OR, USA: Association for Computing Machinery.
+
+\bibitem{Pearl2009-on}
+Pearl, Judea. 2009. \textit{Causality}. Cambridge University Press.
+
+\bibitem{Pennington2014-dz}
+Pennington, J., R. Socher, and C. Manning. 2014. “Glove: Global Vectors for Word Representation.” \textit{Proceedings of the 2014}.
+
+\bibitem{Pew_Research_Center2014-gi}
+Pew Research Center. 2014. “Ebola Worries Rise, But Most Are ’fairly’ Confident in Government, Hospitals to Deal with Disease: Broad Support for US Efforts to Deal with Ebola in West Africa.”
+
+\bibitem{Ratcliff1990-bk}
+Ratcliff, R. 1990. “Connectionist Models of Recognition Memory: Constraints Imposed by Learning and Forgetting Functions.” \textit{Psychological Review} 97(2):285–308.
+
+\bibitem{Rawlings2020-yb}
+Rawlings, Craig M. 2020. “Cognitive Authority and the Constraint of Attitude Change in Groups.” \textit{American Sociological Review} 85(6):992–1021.
+
+\bibitem{Rawlings2022-pw}
+Rawlings, Craig M. 2022. “Becoming an Ideologue: Social Sorting and the Microfoundations of Polarization.” \textit{Sociological Science} 9:313–45.
+
+\bibitem{Rosenfeld2000-rq}
+Rosenfeld, R. 2000. “Two Decades of Statistical Language Modeling: Where Do We Go from Here?” \textit{Proceedings of the IEEE} 88(8):1270–78.
+
+\bibitem{Rosentiel2011-pi}
+Rosentiel, Tom. 2011. “Public Remains Divided over the Patriot Act.” Retrieved (\url{https://policycommons.net/artifacts/624569/public-remains-divided-over-the-patriot-act/1605857/}).
+
+\bibitem{Senior2020-ee}
+Senior, Andrew W. et al. 2020. “Improved Protein Structure Prediction Using Potentials from Deep Learning.” \textit{Nature} 577(7792):706–10.
+
+\bibitem{Shannon1951-ct}
+Shannon, C. E. 1951. “Prediction and Entropy of Printed English.” \textit{Bell System Technical Journal} 30(1):50–64.
+
+\bibitem{Sourati2023-aa}
+Sourati, Jamshid and James A. Evans. 2023. “Accelerating Science with Human-Aware Artificial Intelligence.” \textit{Nature Human Behaviour}.
+
+\bibitem{Stokes2020-vw}
+Stokes, Erin K. et al. 2020. “Coronavirus Disease 2019 Case Surveillance - United States, January 22-May 30, 2020.” \textit{MMWR. Morbidity and Mortality Weekly Report} 69(24):759–65.
+
+\bibitem{Stoltz2019-mx}
+Stoltz, Dustin S. and Marshall A. Taylor. 2019. “Concept Mover’s Distance: Measuring Concept Engagement via Word Embeddings in Texts.” \textit{Journal of Computational Social Science} 2(2):293–313.
+
+\bibitem{Sutskever2023-sa}
+Sutskever, Ilya. 2023. “An Observation on Generalization.”
+
+\bibitem{Swidler2003-il}
+Swidler, Ann. 2003. “Talk of Love: How Culture Matters.” \textit{Canadian Journal of Communication} 28(1).
+
+\bibitem{Terrizzi2013-po}
+Terrizzi, John A., Natalie J. Shook, and Michael A. McDaniel. 2013. “The Behavioral Immune System and Social Conservatism: A Meta-Analysis.” \textit{Evolution and Human Behavior : Official Journal of the Human Behavior and Evolution Society} 34(2):99–108.
+
+\bibitem{Tesler2010-ty}
+Tesler, Larry. 2010. “Adages and Coinages.” Retrieved (\url{https://web.archive.org/web/20100223000629/https://www.nomodes.com/Larry_Tesler_Consulting/Adages_and_Coinages.html}).
+
+\bibitem{Tourangeau2000-tk}
+Tourangeau, Roger, Lance J. Rips, and Kenneth Rasinski. 2000. \textit{The Psychology of Survey Response}. Cambridge University Press.
+
+\bibitem{Turing1950-in}
+Turing, A. M. 1950. “Computing Machinery and Intelligence.” \textit{Mind; a Quarterly Review of Psychology and Philosophy} LIX(236):433–60.
+
+\bibitem{Vaswani2017-wi}
+Vaswani, Ashish et al. 2017. “Attention Is All You Need.” \textit{Advances in Neural Information Processing Systems} 30.
+
+\bibitem{Vicinanza_undated-cj}
+Vicinanza, Paul, Amir Goldberg, and Sameer B. Srivastava. n.d. “Who Sees the Future? A Deep Learning Language Model Demonstrates the Vision Advantage of Being Small.”
+
+\bibitem{Von_Oswald2023-xc}
+Von Oswald, Johannes et al. 2023. “Transformers Learn In-Context by Gradient Descent.” Pp. 35151–74 in \textit{Proceedings of the 40th International Conference on Machine Learning}, vol. 202, \textit{Proceedings of Machine Learning Research}, edited by A. Krause et al. PMLR.
+
+\bibitem{Wilkins2023-mx}
+Wilkins, Alex. 2023. “AI Could Discover Wonder Materials.” \textit{New Scientist} 260(3467):8.
+
+\bibitem{Willis2004-lr}
+Willis, Gordon B. 2004. \textit{Cognitive Interviewing: A Tool for Improving Questionnaire Design}. SAGE Publications.
+
+\bibitem{Xue2020-qb}
+Xue, Linting et al. 2020. “mT5: A Massively Multilingual Pre-Trained Text-to-Text Transformer.” \textit{ArXiv} 2010.11934.
+
+\bibitem{Zaller1992-eq}
+Zaller, John. 1992. \textit{The Nature and Origins of Mass Opinion}. Cambridge University Press.
+
+\bibitem{Zhou2018-cw}
+Zhou, Quan et al. 2018. “Learning Atoms for Materials Discovery.” \textit{Proceedings of the National Academy of Sciences of the United States of America} 115(28):E6411–17.
+
+\end{thebibliography}
