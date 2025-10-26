@@ -181,7 +181,25 @@
             <text macro="publisher"/>
           </group>
         </else-if>
-        <else-if type="bill book graphic legal_case legislation motion_picture report song" match="any">
+        <else-if type="book graphic legal_case legislation motion_picture song" match="any">
+          <group delimiter=" ">
+            <text macro="title" prefix=" " suffix="."/>
+            <text macro="edition"/>
+            <text macro="editor" suffix="."/>
+            <text macro="publisher"/>
+          </group>
+        </else-if>
+        <!-- TE addition for legislative bills -->
+        <else-if type="bill" match="any">
+          <group delimiter=" ">
+            <text macro="title" prefix=" " suffix="."/>
+            <text macro="edition"/>
+            <text macro="editor" suffix="."/>
+            <text macro="publisher"/>
+          </group>
+        </else-if>
+         <!-- TE addition for legislative bills -->
+        <else-if type="report" match="any">
           <group delimiter=" ">
             <text macro="title" prefix=" " suffix="."/>
             <text macro="edition"/>
